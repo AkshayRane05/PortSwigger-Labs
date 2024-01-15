@@ -16,7 +16,7 @@ select tracking-id from tracking-table where trackingId = '5nGtNEmM1huhUPes'
 - If the tracking id exists => query returns value => Welcome back
 - If it doesn't exist => query returns nothing => no Welcome back
 
-select tracking-id from tracking-table where trackingId = '5nGtNEmM1huhUPes' and 1=1--' -> _True_ -> _Welcome back_
+select tracking-id from tracking-table where trackingId = '5nGtNEmM1huhUPes' and 1=1--' -> ```True``` -> _Welcome back_
 
 select tracking-id from tracking-table where trackingId = '5nGtNEmM1huhUPes' and 1=2--' -> _False_ -> _no Welcome back_
 
