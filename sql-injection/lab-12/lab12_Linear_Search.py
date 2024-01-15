@@ -46,4 +46,4 @@ if __name__ == "__main__":
     end_time = time.time()
     elapsed_time = end_time - start_time
 
-    print(f"\nThe elapsed time is {elapsed_time} seconds.")
+    print(f"\nThe elapsed time is round(elapsed_time}, 2) seconds.")
